@@ -1,0 +1,10 @@
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+torch>=2.2
+yfinance>=0.2.40
+matplotlib>=3.8
+seaborn>=0.13
+plotly>=5.20
+streamlit>=1.42
+pytest>=8.0

@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.venv-1/
+
+# Local data cache and generated artifacts (re-creatable)
+data/cache/*
+!data/cache/.gitkeep
+models/*
+!models/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Secrets / local config
+.env
+.streamlit/secrets.toml
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
